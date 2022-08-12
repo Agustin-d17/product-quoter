@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/product-quoter/static/css/main.b7744528.css",
+    "main.js": "/product-quoter/static/js/main.fd1ebfb0.js",
+    "static/js/787.c1c421ff.chunk.js": "/product-quoter/static/js/787.c1c421ff.chunk.js",
+    "index.html": "/product-quoter/index.html",
+    "main.b7744528.css.map": "/product-quoter/static/css/main.b7744528.css.map",
+    "main.fd1ebfb0.js.map": "/product-quoter/static/js/main.fd1ebfb0.js.map",
+    "787.c1c421ff.chunk.js.map": "/product-quoter/static/js/787.c1c421ff.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7744528.css",
+    "static/js/main.fd1ebfb0.js"
+  ]
+}
