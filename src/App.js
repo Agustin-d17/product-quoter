@@ -1,24 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import ProductQuoter from './components/ProductQuoter.js';
+import ItemContextProvider from './context/ItemContext'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ItemContextProvider>
+      <ProductQuoter />
+    </ItemContextProvider>
   );
 }
 

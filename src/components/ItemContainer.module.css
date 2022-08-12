@@ -1,0 +1,45 @@
+.ItemContainer {
+    background-color: #EBEDF2;
+    height: 80%;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+}
+
+form input {
+    border: none;
+    margin-right: 10px;
+    outline: none;
+    padding: 5px;
+}
+
+.Headers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 20px 0 20px 0;
+}
+
+.Headers span {
+    color: #AAA7F2;
+    font-style: italic;
+}
+
+.btn {
+    background-color: #5852F2;
+    color: #EBEDF2;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #6F6BF2;
+}
+
+.CleanContainer {
+    margin-top: 20px;
+}

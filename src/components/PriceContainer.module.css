@@ -1,0 +1,56 @@
+.PriceContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #AAA7F2;
+    width: 80%;
+    height: 60%;
+}
+
+.profitFormContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.profitInput {
+    padding: 8px;
+}
+
+.btn {
+    background-color: #5852F2;
+    color: #EBEDF2;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.btn:hover {
+    background-color: #6F6BF2;
+}
+
+.finalPriceContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+
+.titlePrice {
+    color: #5852F2;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
+
+.price {
+    color: #EBEDF2;
+    margin-top: 20px;
+    font-size: 36px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+}
